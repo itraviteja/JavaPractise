@@ -2,4 +2,8 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="programs.ConsicutiveProduct"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="programs.PrintPattern"/>
+<fullyQualifiedTypeName name="programs.StarPattern"/>
 </qualifiedTypeNameHistroy>

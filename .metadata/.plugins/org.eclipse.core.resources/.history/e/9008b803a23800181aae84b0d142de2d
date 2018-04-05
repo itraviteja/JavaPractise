@@ -1,0 +1,17 @@
+package programs;
+
+public class PrintPattern 
+{
+	static void printPattern(int num)
+	{
+		if(num<=0)
+		{
+			System.out.println(num);
+			return;
+		}
+		System.out.println(".  ."+num);
+		printPattern(num-5);
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package programs;
+
+public class Buttefly 
+{
+	public void butterfly(int number)
+	{
+		
+	}
+
+}

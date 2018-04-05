@@ -1,0 +1,19 @@
+package main;
+
+import java.util.Scanner;
+
+import programs.ConsicutiveProduct;
+
+public class Runner 
+{
+	public static void main(String[] args) 
+	{
+		Scanner s=new Scanner(System.in);
+		/*
+		System.out.println("enter the long number");
+		 String greatest = s.next();
+		 System.out.println(new ConsicutiveProduct().ConProduct(greatest,4));*/
+         
+         
+	}
+}

@@ -1,0 +1,10 @@
+package programs;
+
+public class TrianglePattern 
+{
+	public void trianglePattern(int number)
+	{
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package programs;
+
+public class StarPattern 
+{
+	public void starPattern(int n)
+	{
+		if(n<=0)
+		{
+			System.out.println("*");
+			return;
+		}
+		System.out.print("*");
+		starPattern(n-1);
+		System.out.print("*");
+	}
+	
+
+}

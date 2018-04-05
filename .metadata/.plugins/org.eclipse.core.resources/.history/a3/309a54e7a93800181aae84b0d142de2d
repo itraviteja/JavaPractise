@@ -1,0 +1,11 @@
+package programs;
+
+public class StarPattern 
+{
+	public void starPattern(int n)
+	{
+		
+	}
+	
+
+}

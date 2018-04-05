@@ -3,16 +3,19 @@ package main;
 import java.util.Scanner;
 
 import programs.ConsicutiveProduct;
+import programs.PrintPattern;
+import programs.StarPattern;
 
 public class Runner 
 {
 	public static void main(String[] args) 
 	{
 		//Scanner s=new Scanner(System.in);
-		//System.out.println("enter the long value");
-		 String greatest = "9866664246";
-		 System.out.println(new ConsicutiveProduct().ConProduct(greatest,4));
-         
-         
+		/*
+		System.out.println("enter the long number");
+		 String greatest = s.next();
+		 System.out.println(new ConsicutiveProduct().ConProduct(greatest,4));*/
+        int n=3;
+
 	}
 }

@@ -1,0 +1,16 @@
+package main;
+
+import java.util.Scanner;
+
+import programs.Buttefly;
+import programs.ConsicutiveProduct;
+import programs.PrintPattern;
+import programs.StarPattern;
+
+public class Runner 
+{
+	public static void main(String[] args) 
+	{ new Buttefly().butterfly(6);
+                
+	}
+}
