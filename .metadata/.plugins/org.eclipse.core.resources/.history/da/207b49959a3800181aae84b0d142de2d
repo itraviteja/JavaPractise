@@ -10,8 +10,8 @@ public class Runner
 	{
 		//Scanner s=new Scanner(System.in);
 		//System.out.println("enter the long value");
-		 String greatest = "9866664246";
-		 System.out.println(new ConsicutiveProduct().ConProduct(greatest,4));
+		 String greatest = "132478960237892627281917221985";
+		 System.out.println(new ConsicutiveProduct().ConProduct(greatest));
          
          
 	}

@@ -1,0 +1,44 @@
+package programs;
+
+public class ConsicutiveProduct 
+{
+	public String ConProduct(String number)
+	{
+		long n = 0;
+		String a=null;
+        long pro = 0;
+        long X = 0; 
+        int count=0;
+        for ( int i=0; i < number.length()-2; i++)  
+        {
+       	 X=1;
+       	 count=1;
+            for(int j=0; j<3; j++)
+            {
+           	 if(X == 0)
+                {
+                    X = 1;
+                }
+                char c = number.charAt(i+j);
+                
+                n = Character.getNumericValue(c);
+                
+                X=X*n;
+                if(pro<X)
+                {
+               	 pro=X;
+               	 if(count==3)
+               	 {
+               		a="the highest productive number is"+number.charAt(i+j-2)+number.charAt(i+j-1)+number.charAt(i+j); 
+               	 }
+               }count++;
+            }
+        }
+        
+
+
+		return a+" "+"product is "+pro;
+		
+	}
+
+}

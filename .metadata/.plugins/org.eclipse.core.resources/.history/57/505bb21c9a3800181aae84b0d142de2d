@@ -1,0 +1,11 @@
+package programs;
+
+public class ConsicutiveProduct 
+{
+	public String ConProduct(String number)
+	{
+		return null;
+		
+	}
+
+}
