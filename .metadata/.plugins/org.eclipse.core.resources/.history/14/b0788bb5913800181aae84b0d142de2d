@@ -1,0 +1,45 @@
+package main;
+
+import java.util.Scanner;
+
+public class Runner 
+{
+	public static void main(String[] args) 
+	{
+		//Scanner s=new Scanner(System.in);
+		//System.out.println("enter the long value");
+		 String greatest = "123456";
+         
+         long n = 0;    
+         long pro = 0;
+         long X = 0; 
+         int count=0;
+         System.out.println(greatest.length());
+         for ( int i=0; i < greatest.length()-2; i++)  
+         {
+        	 X=1;
+        	 System.out.println("I"+i);
+             for(int j=0; j<3; j++)
+             {
+                 System.out.println("J"+j);
+            	 if(X == 0)
+                 {
+                     X = 1;
+                 }
+                 char c = greatest.charAt(i+j); 
+                 n = Character.getNumericValue(c);
+                 System.out.println("N"+n);
+                 
+                 X=X*n;
+                 count++;
+                 if(pro<X)
+                 {
+                	 pro=X;
+                	
+                	 
+                 }
+             }
+         }
+         System.out.println(pro);
+	}
+}
